@@ -1,0 +1,20 @@
+## NOTE:
+For this week I focused on Link List. During these questions I have learned a handful of
+techniques such as:
+
+* using multiple functions together 
+* string catinations (turning ints to string and back in order to accomplush certain task)
+* you can not iterate through an int (only string which is why we do the above ^^)
+
+
+* this code below shows how to create a linked list from a for loop (new thing learn)
+
+
+  for ch in reversed_string[1:]:
+
+        # i thought about this but had 0 clue to implement it i see 
+        current.next = Node(int(ch))
+        current = current.next 
+
+
+
